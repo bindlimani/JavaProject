@@ -34,8 +34,7 @@ class InputView
    public void printCheckMoney()
    {
       if(model.checkMoney()==false)
-      {JOptionPane.showMessageDialog(null,"You dont have enough money");} 
-      return;
+      {JOptionPane.showMessageDialog(null,"You dont have enough money");}
    }
    
    public void insertCoffeeQuantity()
