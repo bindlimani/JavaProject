@@ -60,7 +60,7 @@ class InputView
          String again = JOptionPane.showInputDialog("Do you want to try again?"); 
          again = again.toLowerCase(); again = again.trim();
          if(again.equals("yes")){startAgain();} 
-         else{}
+         else{System.exit(0);}
                      
       }
       else
@@ -89,7 +89,7 @@ class InputView
          String start_again = JOptionPane.showInputDialog("Do you want to try again?"); 
          start_again = start_again.toLowerCase(); start_again = start_again.trim();
          if(start_again.equals("yes")){startAgain();} 
-         else{}
+         else{System.exit(0);}
       }
       else
       {JOptionPane.showMessageDialog(null, "There is not enough tea left.");
